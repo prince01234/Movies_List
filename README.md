@@ -81,33 +81,9 @@ To run this project locally:
 
 ---
 
-## 📷 Screenshots
-
-_Add screenshots of your UI here to showcase the design._
-
----
 
 ## 🧠 Learning Objectives
 
 - Master React component composition and props
 - Understand and implement React Context API
 - Learn how to set up projects using Vite for faster builds
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repo and open a pull request with your improvements or suggestions.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## ✨ Acknowledgements
-
-- [ReactJS](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
