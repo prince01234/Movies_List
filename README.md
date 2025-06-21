@@ -1,12 +1,113 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 Movies List
 
-Currently, two official plugins are available:
+A responsive web application built with **React** and **Vite** that allows users to browse and manage a list of movies using a modern UI. It demonstrates state management with React Context and reusable components like `MovieCard` and `NavBar`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📚 View a list of movies with posters and descriptions
+- 🔍 Search functionality to filter through movies
+- 🎨 Clean and responsive UI using custom CSS
+- ⚛️ Built with React functional components and Hooks
+- 📁 Organized folder structure with separation of concerns
+
+---
+
+## 🚀 Live Demo
+
+(Deploy the app on platforms like Netlify, Vercel, or GitHub Pages and add the link here)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js (with Vite)
+- **State Management**: React Context API
+- **Styling**: Custom CSS
+- **Bundler**: Vite
+
+---
+
+## 📁 Project Structure
+
+```
+Movies_List/
+├── public/              # Static assets
+│   └── vite.svg
+├── src/
+│   ├── assets/          # Image assets
+│   │   └── react.svg
+│   ├── components/      # Reusable UI components
+│   │   ├── MovieCard.jsx
+│   │   └── NavBar.jsx
+│   ├── context/         # Global movie context
+│   │   └── MovieContext.jsx
+│   ├── css/             # Stylesheets
+│   │   └── App.css
+│   ├── App.jsx          # Main app layout
+│   └── main.jsx         # Root render file
+├── index.html
+├── package.json
+├── vite.config.js
+└── .gitignore
+```
+
+---
+
+## 🖥️ Installation & Setup
+
+To run this project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/prince01234/Movies_List.git
+   cd Movies_List
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+   Navigate to `http://localhost:5173`
+
+---
+
+## 📷 Screenshots
+
+_Add screenshots of your UI here to showcase the design._
+
+---
+
+## 🧠 Learning Objectives
+
+- Master React component composition and props
+- Understand and implement React Context API
+- Learn how to set up projects using Vite for faster builds
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repo and open a pull request with your improvements or suggestions.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## ✨ Acknowledgements
+
+- [ReactJS](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
