@@ -15,11 +15,6 @@ A responsive web application built with **React** and **Vite** that allows users
 
 ---
 
-## 🚀 Live Demo
-
-(Deploy the app on platforms like Netlify, Vercel, or GitHub Pages and add the link here)
-
----
 
 ## 🛠️ Tech Stack
 
